@@ -71,7 +71,7 @@ body {
 }
 
 .header-text {
-  padding: 0 200px 0 50px;
+  padding: 0 min(15%, 200px) 0 50px;
 }
 
 .form-container {
