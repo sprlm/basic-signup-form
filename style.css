@@ -47,7 +47,7 @@ body {
 
 .logo-text {
   color: white;
-  font-family: norse-bold;
+  font-family: norse-bold, sans-serif;
   font-size: 6rem;
 }
 
