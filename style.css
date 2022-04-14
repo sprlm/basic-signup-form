@@ -29,7 +29,7 @@ body {
   background-size: cover;
 }
 
-.form-container {
+.content-container {
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -70,7 +70,49 @@ body {
 }
 
 .header-text {
-  padding: 0 20% 0 5%;
-  font-weight: bold;
-  font-size: 1.5rem;
+  padding: 0 200px 50px 50px;
+}
+
+.form-container {
+  padding: 0 50px 10px;
+  background-color: white;
+  color: #222;
+  box-shadow: 3px 3px 8px #aaa;
+}
+
+.form-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px 75px;
+  margin: 25px 0;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-input {
+  border: 1px solid var(--light-grey);
+  border-radius: 6px;
+  padding-left: 10px;
+  height: 2rem;
+  width: 350px;
+  font-size: 1rem;
+}
+
+.form-input:focus {
+  border-color: var(--blue);
+  outline: none;
+  box-shadow: 2px 2px 5px #ccc;
+}
+
+.error {
+  border-color: var(--red);
+  outline: none;
+}
+
+.error-text {
+  color: var(--red);
+  font-size: 0.85rem;
 }
