@@ -128,3 +128,14 @@ body {
   background-color: var(--green);
   color: white;
 }
+
+.login-text {
+  padding-left: 50px;
+  font-size: 1.2rem;
+}
+
+.login-text a {
+  text-decoration: none;
+  font-weight: bold;
+  color: var(--green);
+}
